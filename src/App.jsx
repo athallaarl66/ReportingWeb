@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Toaster position="top-right" reverseOrder={false} />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/ReportingWeb" element={<Home />} />
         <Route path="/task" element={<Task />} />
         <Route path="/task/review/:id" element={<TaskReviewPage />} />
         {/* 404 fallback */}
